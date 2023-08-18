@@ -2,28 +2,15 @@
 
 int main()
 {
-	// Bitwise operators
-	int Example = 9;
-	int And = 2 & 3;
-	int Or = 2 | 3;
-	int Xor = 2 ^ 3;
-	int Not = ~4;
-	int LeftShift = 2 << 1;
-	int RightShift = 3 >> 1;
+	// Casting using static_cast<>();
+	int iTest = 60;
+	char cTest = static_cast<int>(iTest);
 
-	// Postfix and prefix increment and decrement operators
-	std::cout << "This Example = " << Example << " And after postfix increment it's now Example = " << Example++ << "\n";
-	std::cout << "This Example = " << Example << " And after prefix increment it's now Example = " << ++Example << "\n";
+	// Casting using const_cast<>();
+	const int* cPtr = nullptr;
+	int* ptr = const_cast<int*>(cPtr);
 
-	// Short circuits operators
-	Example += 90;
-	Example -= 80;
-	Example *= 8;
-	Example /= 60;
-	Example |= 90;
-	Example &= 89;
-	Example ^= 9;
-	Example = ~0;
-	Example <<= 2;
-	Example >>= 3;
+	// Casting using reinterprete_cast<>()
+	double* dPtr = nullptr;
+	int* iPtr = reinterpret_cast<int*>(dPtr);
 }
