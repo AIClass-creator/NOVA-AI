@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Functions\Functions.cpp">
+    <ClCompile Include="src\Functions\Function overloading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
