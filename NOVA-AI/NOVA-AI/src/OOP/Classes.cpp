@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 class String
 {
 private:
@@ -16,26 +15,22 @@ public:
 
 	String(const char* text)
 	{
-		m_Size = strlen(text) + 1;
+		m_Size = strlen(text) + 1ull;
 		m_Buf = new char[m_Size];
+
 		strcpy_s(m_Buf, m_Size, text);
 	}
 
 	void Print()
 	{
-		for (int i = 0; i < m_Size; i++)
-			std::cout << m_Buf[i];
-	}
-
-	~String()
-	{
-		delete[] m_Buf;
+		std::cout << m_Buf << std::endl;
 	}
 };
 
-
 int main()
 {
-	String string("Miopy");
-	string.Print();
+	char* name = "Thierry";
+	const char* cname = "Thierry";
+	std::cout << name << std::endl;
+	std::cout << cname << std::endl;
 }
