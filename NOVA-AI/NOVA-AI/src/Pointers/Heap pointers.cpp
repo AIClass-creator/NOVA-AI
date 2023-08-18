@@ -1,5 +1,5 @@
 /***********************************************
-* Stacks and Heaps allocation and arrays
+* Heap allocated variables and arrays
 ************************************************/
 
 #include <iostream>
