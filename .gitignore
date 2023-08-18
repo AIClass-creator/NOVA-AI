@@ -34,3 +34,6 @@
 /NOVA-AI/.vs/NOVA-AI
 /JavaClass/.idea
 *.iml
+/NOVA-AI/NOVA-AI/x64/Debug
+/NOVA-AI/x64/Debug
+/JavaClass/out/production/JavaClass
