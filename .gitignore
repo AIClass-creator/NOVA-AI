@@ -32,3 +32,5 @@
 *.app
 /.vs
 /NOVA-AI/.vs/NOVA-AI
+/JavaClass/.idea
+*.iml
