@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Casting and Operators\Casting.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Casting and Operators\Operators.cpp">
+    <ClCompile Include="src\Pointers\Stack pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

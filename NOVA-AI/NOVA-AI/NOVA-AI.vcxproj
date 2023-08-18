@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Casting and Operators\Casting.cpp" />
-    <ClCompile Include="src\Casting and Operators\Operators.cpp" />
+    <ClCompile Include="src\Pointers\Stack pointers.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
