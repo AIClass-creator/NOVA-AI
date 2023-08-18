@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pointers\Stack pointers.cpp">
+    <ClCompile Include="src\Pointers\Heap pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -39,4 +39,13 @@ int main()
 	const int* const ccPtr = &val;
 	ccPtr = &val1; // error
 	*ccPtr = 9; // error
+
+	// You can assign an array to a pointer and that point will store the address
+	// of the first value in array;
+	int Array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	int* arrayPtr = Array;
+
+	// You can even use index operator on the array that points on the first value in array
+	arrayPtr[6] = 90;
+	std::cout << arrayPtr[7] << std::endl;
 }
