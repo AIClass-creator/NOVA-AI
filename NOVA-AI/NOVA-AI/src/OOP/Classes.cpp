@@ -29,8 +29,8 @@ public:
 
 int main()
 {
-	char* name = "Thierry";
-	const char* cname = "Thierry";
-	std::cout << name << std::endl;
-	std::cout << cname << std::endl;
+	int i = 0;
+	std::cout << ++i << std::endl;
+	std::cout << i++ << std::endl;
+	std::cout << i << std::endl;
 }
