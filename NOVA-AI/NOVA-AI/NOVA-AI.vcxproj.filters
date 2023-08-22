@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\OOP\Rule of three.cpp">
+    <ClCompile Include="src\OOP\inhertance and other concepts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
