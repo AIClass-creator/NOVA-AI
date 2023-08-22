@@ -1,4 +1,6 @@
-import org.jetbrains.annotations.NotNull;
+/************************************
+* Resizable array
+*************************************/
 public class List{
     private int[] m_Buffer;
     private int m_Size;
@@ -10,14 +12,13 @@ public class List{
         m_Buffer = null;
         resize(5);
     }
-    List(int @NotNull [] array)
+    List(int ... values)
     {
-        resize(array.length);
-        m_Size = m_Capacity;
+        m_Size = values.length;
+        resize(values.length);
         for (int i = 0; i < m_Size; i++)
-            m_Buffer[i] = array[i];
+            m_Buffer[i] = values[i];
     }
-
     private void resize(int capacity)
     {
         m_Capacity += capacity;
